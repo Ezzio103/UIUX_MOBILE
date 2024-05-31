@@ -100,6 +100,7 @@
 .frame-parent61 {
   flex: 1;
   gap: var(--gap-10xl);
+  margin-top: 50px;
 }
 .frame-wrapper32 {
   width: 323px;

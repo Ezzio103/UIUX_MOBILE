@@ -69,6 +69,7 @@
   padding: var(--padding-4xs) var(--padding-12xl) var(--padding-8xs)
     var(--padding-8xl);
   gap: var(--gap-xl);
+  position: fixed; top: 0; width: 100%; border-radius: 21px 21px 0 0;
 }
 .ngi-dng-inner {
   align-self: stretch;
@@ -93,6 +94,7 @@
   font-family: var(--font-league-spartan);
   color: var(--color-mediumslateblue);
   text-align: center;
+  top: -5px;
 }
 .change-elements,
 .change-label {
@@ -109,6 +111,7 @@
   align-self: stretch;
   flex-direction: row;
   gap: var(--gap-9xl);
+  margin-top: 15px;
 }
 .frame-child160 {
   height: 106.6px;
@@ -132,14 +135,16 @@
   gap: var(--gap-5xs);
 }
 .change-container-wrapper {
-  width: 335px;
+  margin-right: 10px;
+  width: 100%;
   display: flex;
   flex-direction: row;
   align-items: flex-start;
   justify-content: flex-start;
-  padding: 0 var(--padding-11xl) 13.4px;
+  padding: 0 40px 13.4px 30px;
   box-sizing: border-box;
   max-width: 100%;
+
 }
 .details-child,
 .h-v-tn {

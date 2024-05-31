@@ -97,6 +97,7 @@
   align-items: flex-start;
   justify-content: flex-start;
   gap: var(--gap-10xl);
+  margin-top: 50px;
 }
 .mt-khu-hin {
   width: 178px;

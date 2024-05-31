@@ -69,6 +69,7 @@
   font-size: var(--font-size-smi);
   color: var(--color-black);
   font-family: var(--font-league-spartan);
+  position: fixed; top: 0; width: 100%; border-radius: 21px 21px 0 0;
 }
 .settings-icon {
   height: 14px;
@@ -95,6 +96,7 @@
   align-items: flex-start;
   justify-content: space-between;
   gap: var(--gap-xl);
+  margin-top: 50px;
 }
 .accessibility-tools-icon {
   height: 29px;

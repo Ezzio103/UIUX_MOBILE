@@ -105,6 +105,7 @@
   align-items: flex-start;
   justify-content: space-between;
   gap: var(--gap-xl);
+  margin-top: 10px;
 }
 .status-steps-child {
   height: 27px;

@@ -69,6 +69,7 @@
   font-size: var(--font-size-smi);
   color: var(--color-black);
   font-family: var(--font-league-spartan);
+  position: fixed; top: 0; width: 100%; border-radius: 21px 21px 0 0;
 }
 .vector-icon77 {
   height: 14px;
@@ -95,6 +96,7 @@
   align-items: flex-start;
   justify-content: space-between;
   gap: var(--gap-xl);
+  margin-top: 50px;
 }
 .cp-nhp-14082024 {
   width: 231px;
@@ -177,7 +179,7 @@
 .frame-wrapper40 {
   align-self: stretch;
   flex-direction: row;
-  padding: 0 var(--padding-xl) 0 var(--padding-xs);
+  padding: 0 15px 0 15px;
 }
 .iu-khon-v {
   margin: 0;
@@ -227,6 +229,7 @@
   gap: var(--gap-mid);
   text-align: left;
   font-size: var(--font-size-xl);
+  padding: 0 15px 0 15px;
 }
 .frame-parent81 {
   flex: 1;
@@ -247,7 +250,7 @@
 .chnh-sch-inner {
   align-self: stretch;
   flex-direction: row;
-  padding: 0 var(--padding-5xl) 0 var(--padding-lg);
+  padding: 0 10px 0 10px;
 }
 .chnh-sch1 {
   width: 100%;

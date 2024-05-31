@@ -126,6 +126,7 @@
   flex-direction: column;
   justify-content: flex-start;
   gap: var(--gap-2xs);
+  margin-top: 0;
 }
 .frame-wrapper3 {
   align-self: stretch;

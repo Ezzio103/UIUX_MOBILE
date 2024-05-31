@@ -116,6 +116,7 @@
   align-items: flex-start;
   justify-content: space-between;
   gap: var(--gap-xl);
+  margin-top: 50px;
 }
 .status-labels-child {
   height: 27px;
@@ -222,6 +223,7 @@
   display: inline-block;
   flex-shrink: 0;
   z-index: 1;
+  left: 10px;
 }
 .design-tasks {
   align-self: stretch;
@@ -929,6 +931,7 @@
   display: inline-block;
   flex-shrink: 0;
   z-index: 1;
+  left: 20px;
 }
 .s-trang-web-wrapper {
   align-self: stretch;
@@ -1206,7 +1209,7 @@
   background-color: var(--color-white);
   overflow: hidden;
   flex-direction: column;
-  align-items: flex-end;
+  align-items: flex-start;
   justify-content: flex-start;
   padding: 0 0 var(--padding-lgi);
   box-sizing: border-box;

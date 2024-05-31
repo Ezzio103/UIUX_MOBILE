@@ -110,6 +110,7 @@
   align-items: flex-start;
   justify-content: space-between;
   gap: var(--gap-xl);
+  margin-top: 15px;
 }
 .status-list-child {
   height: 27px;
@@ -697,6 +698,7 @@
   display: inline-block;
   flex-shrink: 0;
   z-index: 1;
+  left: 20px;
 }
 .bo-tr-giao-din-wrapper {
   align-self: stretch;

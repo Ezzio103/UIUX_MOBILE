@@ -105,6 +105,7 @@
   align-self: stretch;
   flex-direction: row;
   position: relative;
+  margin-top: 50px;
 }
 .frame-wrapper9 {
   width: 145px;

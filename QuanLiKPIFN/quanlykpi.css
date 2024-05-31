@@ -71,6 +71,7 @@
   font-size: var(--font-size-smi);
   color: var(--color-black);
   font-family: var(--font-league-spartan);
+  position: fixed; top: 0; width: 100%; border-radius: 21px 21px 0 0;
 }
 .vector-icon18 {
   width: 8px;
@@ -128,6 +129,7 @@
   gap: var(--gap-sm);
 }
 .nested-content-wrapper {
+  margin-top: 60px;
   width: 151px;
   align-items: flex-start;
   padding: 0 var(--padding-11xl) var(--padding-8xs);

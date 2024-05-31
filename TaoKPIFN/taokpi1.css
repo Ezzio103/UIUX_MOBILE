@@ -105,6 +105,7 @@
     gap: var(--gap-10xl);
     text-align: center;
     font-size: var(--font-size-5xl);
+    margin-top: 50px;
   }
   .chn-phng-thc {
     flex: 1;
@@ -286,7 +287,7 @@
     width: 338px;
     flex-direction: row;
     justify-content: flex-end;
-    padding: 0 var(--padding-5xs) 420px;
+    padding: 0 5px 420px 12px ;
     box-sizing: border-box;
   }
   .sidebar-icon2 {
