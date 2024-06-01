@@ -56,7 +56,7 @@
 }
 .rectangle-parent {
   align-self: stretch;
-  background-color: var(--color-lavender);
+  background-color: var(--color-aliceblue);
   align-items: flex-start;
   justify-content: space-between;
   padding: var(--padding-4xs) var(--padding-12xl) var(--padding-8xs)
@@ -71,6 +71,7 @@
   font-size: var(--font-size-smi);
   color: var(--color-black);
   font-family: var(--font-league-spartan);
+  position: fixed; top: 0; width: 100%; border-radius: 21px 21px 0 0;
 }
 .chart-background-icon {
   height: 14px;
@@ -86,14 +87,15 @@
   color: inherit;
   display: inline-block;
   min-width: 121px;
+  margin-left: 25%;
 }
 .chart-background-parent {
-  width: 213px;
+  width: 100%;
   display: flex;
   flex-direction: row;
   align-items: flex-start;
-  justify-content: space-between;
-  gap: var(--gap-xl);
+  
+
 }
 .nm {
   align-self: stretch;
@@ -154,19 +156,19 @@
   border-radius: var(--br-xl);
   background-color: var(--color-mediumslateblue);
   align-items: flex-start;
-  padding: var(--padding-xs) var(--padding-mini) var(--padding-2xs)
-    var(--padding-lgi);
+  padding: 5px;
   color: var(--color-white);
 }
 .frame-group {
   flex: 1;
   align-items: flex-end;
-  gap: var(--gap-8xs);
+  justify-content:space-around;
+  gap: 0;
 }
 .chart-details-inner {
   align-self: stretch;
   flex-direction: row;
-  padding: 0 0 0 var(--padding-xl);
+  padding: 0 ;
   font-size: var(--font-size-xl);
 }
 .chart-content,
@@ -232,12 +234,11 @@
   flex: 1;
   border-radius: var(--br-2xl);
   background-color: var(--color-mediumslateblue);
-  padding: var(--padding-5xs) var(--padding-6xs) var(--padding-5xs)
-    var(--padding-2xl);
+  padding: 5px;
 }
 .chart-visualization {
   align-self: stretch;
-  padding: 0 var(--padding-xs) 0 var(--padding-8xl);
+  padding: 0;
   text-align: left;
   font-size: var(--font-size-base);
   color: var(--color-white);
@@ -731,6 +732,7 @@
   display: flex;
   align-items: center;
   justify-content: center;
+  top: -2px;
 }
 .frame-div {
   position: absolute;
@@ -895,6 +897,8 @@
   display: flex;
   align-items: center;
   justify-content: center;
+  top: -6px;
+  left: -2px;
 }
 .frame-parent3 {
   position: absolute;
@@ -1097,7 +1101,7 @@
   align-self: stretch;
   flex-direction: column;
   align-items: flex-start;
-  padding: 0 var(--padding-5xs) var(--padding-3xs) 0;
+  padding: 0 ;
   gap: var(--gap-9xs);
   color: var(--color-mediumslateblue-100);
 }
@@ -1126,6 +1130,8 @@
   font-size: var(--font-size-5xl);
   color: var(--color-mediumslateblue);
   font-family: var(--font-league-spartan);
+  justify-content: center;
+  align-items: center;
 }
 .thng-k,
 .thng-k-inner {
@@ -1137,8 +1143,9 @@
   flex-direction: row;
   align-items: flex-start;
   justify-content: flex-end;
-  padding: 0 var(--padding-3xs) 0 var(--padding-2xs);
+  padding: 50px var(--padding-9xl) 0 var(--padding-9xl);
   max-width: 100%;
+
 }
 .thng-k {
   width: 100%;
@@ -1153,4 +1160,29 @@
   gap: var(--gap-16xl);
   line-height: normal;
   letter-spacing: normal;
+}
+
+.footer{
+  margin-left: 0px;
+  
+}
+
+.language-dropdown {
+  width: 100%;
+  height: auto;
+  padding: 10px;
+  border-radius: 5px;
+  border: 1px solid #2260ff;
+  font-size: 16px;  
+  background-color: #2260ff;
+  font-family: "Roboto"; 
+  font-weight: 600;
+  color: #fff;
+}
+
+.date-picker:focus,
+.language-dropdown:focus {
+  outline: none;
+  border: none;
+  box-shadow: none;
 }

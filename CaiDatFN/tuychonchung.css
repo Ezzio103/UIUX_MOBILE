@@ -519,28 +519,6 @@
   letter-spacing: normal;
 }
 
-.language-dropdown {
-  width: 100%;
-  height: auto;
-  padding: 10px;
-  border-radius: 5px;
-  border: 1px solid #ecf1ff;
-  font-size: 16px;  
-  background-color: #ecf1ff;
-  font-family: "League Spartan"; 
-}
-
-.date-picker {
-  width: 85%;
-  padding: 15px;
-  padding-left: 25px;
-  border-radius: 50px;
-  border: 1px solid #ecf1ff;
-  font-size: 16px;
-  background-color: #ecf1ff;
-  font-family: "League Spartan";
-}
-
 .date-picker:focus,
 .language-dropdown:focus {
   outline: none;
