@@ -413,7 +413,7 @@
 }
 .note-container {
   align-self: stretch;
-  justify-content: flex-end;
+  justify-content: center;
   padding: 0 var(--padding-28xl) var(--padding-xl);
 }
 .sidebar-icon3 {
@@ -475,4 +475,12 @@
 .img-refix{
   height: 25px;
   width: 30px;
+}
+.input-detail2,
+.input-detail1{
+  width: 97%;
+}
+
+.footer{
+  margin-left: 32px;
 }

@@ -1186,7 +1186,7 @@
   align-self: stretch;
   flex-direction: row;
   justify-content: flex-end;
-  padding: 0 21px 0 21px;
+  padding: 0 var(--padding-9xl) 0 var(--padding-9xl);
 }
 .sidebar-icon10 {
   height: 48px;
@@ -1216,4 +1216,8 @@
   gap: var(--gap-16xl);
   line-height: normal;
   letter-spacing: normal;
+}
+
+.footer{
+  margin-left: 31px;
 }

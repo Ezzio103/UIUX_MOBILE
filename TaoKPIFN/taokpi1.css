@@ -111,7 +111,7 @@
     flex: 1;
     position: relative;
     text-transform: capitalize;
-    left: 10px
+    left: 0px
   }
   .method-title {
     align-self: stretch;
@@ -184,8 +184,8 @@
     border-radius: var(--br-xl);
     background-color: var(--color-aliceblue);
     flex-direction: row;
-    padding: var(--padding-2xs) var(--padding-sm) var(--padding-smi)
-      var(--padding-5xl);
+    padding: var(--padding-2xs) var(--padding-9xl) var(--padding-smi)
+      var(--padding-9xl);
     box-sizing: border-box;
     color: var(--color-cornflowerblue);
   }
@@ -194,6 +194,7 @@
     flex-direction: column;
     gap: var(--gap-lgi);
     color: var(--color-black);
+    padding: 0 0 0 20px;
   }
   .frame-child10 {
     height: 44px;
@@ -219,7 +220,8 @@
     flex-direction: column;
     align-items: flex-start;
     justify-content: flex-start;
-    padding: var(--padding-12xs) 0 0;
+    padding: var(--padding-12x) 0 0;
+    
   }
   .frame-child11,
   .frame-child12 {
@@ -257,15 +259,16 @@
     border-radius: var(--br-xl);
     background-color: var(--color-aliceblue);
     padding: var(--padding-sm) var(--padding-sm) var(--padding-3xs)
-      var(--padding-4xl);
+      var(--padding-8xl);
     gap: var(--gap-24xl);
+    right: 20px;
   }
   .new-task-setup {
     width: 302px;
     padding: 0 var(--padding-12xs);
     box-sizing: border-box;
     color: var(--color-cornflowerblue);
-    margin-left: 10px;
+    margin-left: 20px;
   }
   .frame-parent10,
   .to-kpi-child {
@@ -282,6 +285,7 @@
     font-size: var(--font-size-xl);
     color: var(--color-mediumslateblue);
     font-family: var(--font-roboto);
+    margin: auto;
   }
   .to-kpi-child {
     width: 338px;

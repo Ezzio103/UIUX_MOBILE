@@ -536,10 +536,10 @@
 }
 .frame-child46 {
   height: 51.5px;
-  width: 292px;
+  width: 320px;
   position: absolute;
   margin: 0 !important;
-  right: -155px;
+  right: -175px;
   bottom: -14px;
 }
 .frame-child47 {
@@ -878,7 +878,7 @@
   align-self: stretch;
   flex-direction: row;
   justify-content: flex-end;
-  padding: 0 21px 72px 21px;
+  padding: 0 var(--padding-9xl) 72px var(--padding-9xl);
   text-align: left;
   font-size: var(--font-size-sm);
   color: var(--color-black);
@@ -915,4 +915,8 @@
 
 .qlkfter{
   margin-right: 22px;
+}
+
+.footer{
+  margin-right: 8px;
 }

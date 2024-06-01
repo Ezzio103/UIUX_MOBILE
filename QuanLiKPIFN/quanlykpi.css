@@ -371,7 +371,7 @@
 }
 .description-container1 {
   flex-direction: row;
-  padding: 0 var(--padding-8xl) 0 var(--padding-8xl);
+  padding: 0 var(--padding-9xl) 0 var(--padding-9xl);
 }
 .container {
   flex-direction: column;
@@ -1032,4 +1032,8 @@
 
 .qlkfter{
   padding-left: 0px;
+}
+
+.footer{
+  margin-left: 30px;
 }

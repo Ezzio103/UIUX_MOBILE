@@ -369,6 +369,7 @@
   width: 280px;
   flex-direction: row;
   gap: var(--gap-7xs);
+  margin-right: 5px;
 }
 .category-pair-container-parent {
   align-self: stretch;
@@ -392,6 +393,7 @@
   color: var(--color-black);
   text-align: left;
   z-index: 2;
+  top: -5px
 }
 .management-icon {
   width: 12px;
